@@ -33,6 +33,10 @@ public class Order {
     @Column
     OrderStatus orderStatus;
 
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    User user;
+
 
 
 }

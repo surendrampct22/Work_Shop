@@ -1,4 +1,4 @@
-package com.sp.org;
+package com.sp.thread;
 
 public class RunnableDemo implements Runnable{
     @Override
