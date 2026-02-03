@@ -1,4 +1,4 @@
-package com.sp.thread;
+package com.org.thread;
 
 public class ThreadDemo extends Thread {
     @Override

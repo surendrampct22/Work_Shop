@@ -12,8 +12,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
-
 /*{
         "customerName": "varsha",
         "productName": "Mobile",
@@ -68,7 +66,7 @@ public class OrderController {
 
         String message = orderService.DeleteOrder(id);
 
-        return ResponseEntity.ok("Order Delete Successfully");
+        return ResponseEntity.ok(message);
     }
 
     @PutMapping("/{id}/status")
